@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+/* Einstellungen*/
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: 3rem;
+    margin: 4%;
+    background-color: rgb(107, 44, 44);
+    border-radius: 18px;
+    
+}
+/*  Globale einstellung ende */
+
+/* ++++Header Start++++ */
+header{
+    text-align: center;
+    font-family: Didact Gothic;
+    
+}
+
+h4{
+    font-size: 20px; 
+    margin: 3%;
+    
+}
+h1 {
+    font-size: 4rem;
+    margin: 2%;
+}
+
+/* Headder End */
+
+
+
+
+/*++++++ main ++++++++*/
+
+h2{
+    font-size: 5rem;
+    padding-top: 5%;
+    
+    
+}
+p{
+    font-size: 2rem;
+    color: #9E9E9E;
+    padding-top: 6%;
+    padding-bottom:5%;
+}
+
+div h2{
+    text-align: right;
+    padding-top: 5%;
+    
+}
+
+/*+++++++++ main End +++++++++*/
+
+/*++++++Configuration++++++++++++++++*/
+
+a:nth-of-type(1) {    
+    color: white;
+ }
+
+ a:nth-of-type(2) {    
+    color: black;
+ }
+
+
+h2:nth-of-type(1) {
+    color: white;
+    padding: 4%;
+}
+
+
+
+
+p:nth-of-type(1) {
+    padding: 4%;
+}
+
+p:nth-of-type(2) {
+    padding: 4%;
+}
+
+
+article:last-of-type{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(3, 3, 3);
+    color: white;
+    
+    
+    
+}
+article:last-of-type p{ 
+    margin: 0;
+    padding: 0;
+    margin-left: 60%;
+    padding-bottom: 14.5%;
+}
+article:last-of-type h2{
+    margin: 0;
+    padding: 0;
+    padding-top: 5%; 
+    padding-bottom: 5%;
+    text-align: center;
+
+   
+    
+}
+
+article:last-of-type a {
+    
+    margin-left: 60%; 
+    background-color: rgb(19, 59, 19);
+    border: 1px solid red;
+
+    
+}
+/*++++++Configuration Ende+++++*/
+
+/* Footer Start */
+footer{
+    text-align: center;
+    font-size: 5rem;
+    margin-top:
+
+    
+}
+
+footer ul li {
+    margin: 7%;
+    list-style: none;
+    text-decoration: underline;
+    
+}
+
+
+
+
+footer p {
+text-align: end;
+color: rgb(24, 6, 129);
+
+}
+/* Footer Ende */
+
+
+/* Images */
+article:first-of-type {
+    background: url("../img/portfolio2.jpg") center/cover no-repeat;
+    
+}
+
+main article:nth-of-type(2) {
+    background: url("../img/portfolio3.png") center/cover no-repeat;
+    
+}
+
+article:nth-of-type(3) {
+    background: url("../img/portfolio4.jpg")center/cover no-repeat ;
+    
+}
+article:nth-of-type(4) {
+    background: url("../img/portfolio5.png")center/cover no-repeat;
+    
+}
